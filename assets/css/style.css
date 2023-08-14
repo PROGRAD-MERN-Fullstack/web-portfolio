@@ -1,3 +1,60 @@
-*{
+.portfolio {
+    display: flex;
+    flex-flow:column;
+    color:black;
+    margin: 20px auto;
+    
+}
+header {
+    display: flex;
+    background-color: rgb(239, 239, 200);
+    justify-content:space-between;
+    align-items: center;
+}
+.details ul {
+    list-style: none;
+    padding: 0;
     margin: 0;
+}
+
+.details li {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.details a{
+    color:#0000FF ;
+}
+#about{
+    background-color: beige;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 20px;
+}
+#skill
+{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: rgb(239, 239, 200);
+    font-size: 20px;
+}
+#internship
+{
+    background-color: beige;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 20px;
+
+}
+#qualification
+{
+    font-size: 20px;
+    background-color: rgb(239, 239, 200);
+}
+#projects{
+    background-color: beige;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 20px;
 }
